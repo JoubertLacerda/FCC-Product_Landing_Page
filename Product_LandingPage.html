@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</header>
+
+<body>
+
+    <div id="main">
+        <header id="header">
+            <!--company Logo and nav-links-->
+            <div id="logo" class="logo">
+                <div id="logo-holder" class="">
+                    <img id="header-img"
+                        src="https://image.shutterstock.com/image-vector/burger-logostickeremblem-260nw-446684356.jpg"
+                        alt="BurgerJoint Logo" />
+                </div>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#delivery">Delivery</a></li>
+                    <li><a class="nav-link" href="#locations">Location</a></li>
+                    <li><a class="nav-link" href="#made">How we make it</a></li>
+                    <li><a class="nav-link" href="#email">Get sweet deals</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--video-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ip0tlyXBmE0" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--Page Icons and descritpions-->
+        <div class="container">
+            <section id="delivery">
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-truck"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Delivery</h2>
+                        <p>free delivery within a 25km. live further from that? get the goodness of our Burgers for an
+                            extra $5 <b>TO YOUR DOOR</b></p>
+                    </div>
+                </div>
+            </section>
+            <section id="locations">
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fas fa-3x fa-map-marker-alt"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Locations</h2>
+                        <p>so many great location near you, so many reasons to eat out</p>
+                    </div>
+                </div>
+            </section>
+            <section id="made">
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fas fa-3x fa-heart"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Made with care</h2>
+                        <p>Our Burgers are made with the best stuff there is to offer, made from locally sourced
+                            products</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit">
+            <div id="caption">
+                <p>Sign up for our great specials</p>
+            </div>
+            <input name="email" id="email" type="email" placeholder="sign up, enter your email" required />
+            <input id="submit" type="submit" value="Sign ME UP!" class="btn" />
+        </form>
+    </div>
+</body>
+
+</html>
